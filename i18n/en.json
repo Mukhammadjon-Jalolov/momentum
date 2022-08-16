@@ -3,5 +3,15 @@
   "Goodnight": "Good night",
   "Goodafternoon": "Good afternoon",
   "Goodmorning": "Good morning",
-  "entername": "[Enter name]"
+  "entername": "[Enter name]",
+
+  "clickforsettings" : "Click for settings",
+  "showsettings" : "Settings are here",
+  "showhideaudio" : "Show hide audio player:",
+  "showhideweather" : "Show hide weather:",
+  "showhidetime" : "Show hide time:",
+  "showhidedate" : "Show hide date:",
+  "showhidegreeting" : "Show hide greeting:",
+  "showhidequote" : "Show hide quote of day:",
+  "chooselang" : "Choose a language:"
 }

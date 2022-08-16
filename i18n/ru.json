@@ -3,5 +3,15 @@
   "Goodnight": "Добрый ночь",
   "Goodafternoon": "Добрый день",
   "Goodmorning": "Доброе утро",
-  "entername": "[Введите имя]"
+  "entername": "[Введите имя]",
+  
+  "clickforsettings" : "Нажмите для настроек",
+  "showsettings" : "Настройки здесь",
+  "showhideaudio" : "Показать скрыть аудиоплеер:",
+  "showhideweather" : "Показать скрыть погоду:",
+  "showhidetime" : "Показать скрыть время:",
+  "showhidedate" : "Показать скрыть дату:",
+  "showhidegreeting" : "Показать скрыть приветствие:",
+  "showhidequote" : "Показать скрыть цитату дня:",
+  "chooselang" : "Выберите язык:"
 }

@@ -56,6 +56,35 @@ let chosedaypart;
 let imgitem;
 const bodypart = document.querySelector('body');
 
+
+const clickforsettings = document.getElementById('clickforsettings');
+clickforsettings.setAttribute("data-i18n", "clickforsettings");
+
+const settings = document.getElementById('showsettings');
+settings.setAttribute("data-i18n", "showsettings");
+
+const showhideaudio = document.getElementById('showhideaudio');
+showhideaudio.setAttribute("data-i18n", "showhideaudio");
+
+const showhideweather = document.getElementById('showhideweather');
+showhideweather.setAttribute("data-i18n", "showhideweather");
+
+const showhidetime = document.getElementById('showhidetime');
+showhidetime.setAttribute("data-i18n", "showhidetime");
+
+const showhidedate = document.getElementById('showhidedate');
+showhidedate.setAttribute("data-i18n", "showhidedate");
+
+const showhidegreeting = document.getElementById('showhidegreeting');
+showhidegreeting.setAttribute("data-i18n", "showhidegreeting");
+
+const showhidequote = document.getElementById('showhidequote');
+showhidequote.setAttribute("data-i18n", "showhidequote");
+
+const chooselang = document.getElementById('chooselang');
+chooselang.setAttribute("data-i18n", "chooselang");
+
+
 function partofday(){
     const daypart = document.getElementById('greetId');
 

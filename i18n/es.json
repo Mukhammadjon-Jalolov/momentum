@@ -3,5 +3,15 @@
   "Goodnight": "Buenas noches",
   "Goodafternoon": "Buenas tardes",
   "Goodmorning": "Buenos dias",
-  "entername": "[Ingrese nombre]"
+  "entername": "[Ingrese nombre]",
+  
+  "clickforsettings" : "Haga clic para la configuración",
+  "showsettings" : "Los ajustes están aquí",
+  "showhideaudio" : "Mostrar ocultar reproductor de audio:",
+  "showhideweather" : "Mostrar ocultar el tiempo:",
+  "showhidetime" : "Mostrar hora oculta:",
+  "showhidedate" : "Mostrar ocultar fecha:",
+  "showhidegreeting" : "Mostrar ocultar saludo:",
+  "showhidequote" : "Mostrar ocultar cita del día:",
+  "chooselang" : "Elige un idioma:"
 }
