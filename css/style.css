@@ -37,10 +37,13 @@ body {
   justify-content: space-between;
   width: 120px;
   margin-bottom: 28px;
+  margin-left: 40px;
+  padding-top: 10px;
 }
 
 .play-list {
   text-align: left;
+  padding-left: 30px;
 }
 
 .play-item {
@@ -116,6 +119,16 @@ body {
 
 .play-next {
   background-image: url("../assets/svg/play-next.svg");
+}
+
+.player{
+  background-image: url('../assets/img/music.jpg');
+  width: 220px;
+  height: 220px;
+  background-repeat: no-repeat;
+  background-size: 320px 220px;
+  border-radius: 20px;
+  border: 2px solid lime;
 }
 
 .weather {
