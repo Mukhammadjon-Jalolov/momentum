@@ -52,14 +52,17 @@
       <br/>
       <br/>
 
-      <fieldset>
-        <legend>Choose a language:</legend>
-        <label>
-          <input type="radio" name="lang" value="en" checked /> English
-        </label>
-        <label> <input type="radio" name="lang" value="de" /> German </label>
-        <label> <input type="radio" name="lang" value="es" /> Spanish </label>
-      </fieldset>
+      <form>
+        <fieldset>
+          <legend>Choose a language:</legend>
+          <label>
+            <input type="radio" name="lang" value="en" checked /> English
+          </label>
+          <label> <input type="radio" name="lang" value="ru" /> Russian </label>
+          <label> <input type="radio" name="lang" value="es" /> Spanish </label>
+        </fieldset>
+      </form>
+      
 
     </div>
 
@@ -102,8 +105,8 @@
     
 
     <div class="greeting-container" id="greeting">
-      <span class="greeting"></span>
-      <input type="text" class="name" id = "nameInput"/>
+      <span class="greeting" id="greetId" data-i18n=""></span>
+      <input type="text" class="name" id = "nameInput" />
     </div>
   </main>
 
@@ -120,7 +123,7 @@
     </div>
   </footer>
 
-  
+  <script type="module" src="js/index.js"></script>
   <script type="module" src="js/script.js"></script>
 </body>
 </html>

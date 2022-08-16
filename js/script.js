@@ -36,6 +36,7 @@ nameInput.addEventListener("onchange", uploadname);
 
 if(ism.value === ""){
     ism.placeholder = "[Enter name]";
+    //ism.setAttribute("data-i18n", "entername");
 }
 
 function setLocalStorage() {
@@ -56,10 +57,12 @@ let imgitem;
 const bodypart = document.querySelector('body');
 
 function partofday(){
-    const daypart = document.querySelector('.greeting');
+    const daypart = document.getElementById('greetId');
 
-    const parts = ['Good night', 'Good morning', 'Good afternoon', 'Good evening']
-    daypart.textContent = parts[numday];
+    const parts = ['Goodnight', 'Goodmorning', 'Goodafternoon', 'Goodevening']
+    
+    daypart.setAttribute("data-i18n", `${parts[numday]}`);
+    //daypart.textContent = parts[numday];
 
     const whatday = ['night', 'morning', 'afternoon', 'evening'];
     chosedaypart = whatday[numday];
