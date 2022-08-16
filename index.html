@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="assets/favicon.ico" rel="shortcut icon" />
+  <link rel="stylesheet" href="css/owfont-regular.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  
+  <title>momentum</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="player" id="player">
+      <audio id="demoaudio"></audio>
+      <div class="player-controls">
+        <button class="play-prev player-icon"></button>
+        <button class="play player-icon"></button>
+        <button class="play-next player-icon"></button>
+      </div>
+      <ul class="play-list" id="playListAll">
+        
+      </ul>
+    </div>
+
+    <div class="sozlamalar" id="sozlamalar">
+      <div class="sett">Click for settings</div>
+    </div>
+
+    <div class="settings" id="settings">
+
+      <h3 id="opensettings">Settings are here</h3>
+      <br/>
+      Show hide audio player:
+      <input type="checkbox" id="setplayer">
+      <br/>
+      Show hide weather:
+      <input type="checkbox" id="setweather">
+      <br/>
+      Show hide time:
+      <input type="checkbox" id="settime">
+      <br/>
+      Show hide date:
+      <input type="checkbox" id="setdate">
+      <br/>
+      Show hide greeting:
+      <input type="checkbox" id="setgreeting">
+      <br/>
+      Show hide quote of day:
+      <input type="checkbox" id="setquote">
+      <br/>
+      <br/>
+
+      <fieldset>
+        <legend>Choose a language:</legend>
+        <label>
+          <input type="radio" name="lang" value="en" checked /> English
+        </label>
+        <label> <input type="radio" name="lang" value="de" /> German </label>
+        <label> <input type="radio" name="lang" value="es" /> Spanish </label>
+      </fieldset>
+
+    </div>
+
+    
+
+    <div class="weather" id="weather">
+      <input type="text" class="city" id="cityId"/>
+      <i class="weather-icon owf"></i>
+      <div class="weather-error"></div>
+
+      <div class="description-container">
+        <span class="temperature">
+        </span>
+
+        <span class="weather-description">  
+        </span>
+      </div>
+
+      <div class="wind">
+      </div>
+      <div class="humidity">
+      </div>
+    </div>
+  </header>
+
+  
+
+  <main class="main">
+    
+
+
+    <div class="slider-icons">
+      <button class="slide-prev slider-icon" id="slideprev"></button>
+      <button class="slide-next slider-icon" id="slidenext"></button>
+    </div>
+    <time class="time" id="time"></time>
+    
+    <date class="date" id="date"></date>
+
+    
+
+    <div class="greeting-container" id="greeting">
+      <span class="greeting"></span>
+      <input type="text" class="name" id = "nameInput"/>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <!--THIS IS A BUTTON TO CHANGE QUOTES. We need a onclick FUNCTION TO DO THIS-->
+    <button class="change-quote" id="Isquote"></button>
+    <div>
+      <div class="quote" id="quote">
+        "You can't stop the waves, but you can learn to surf."
+      </div>
+      <div class="author" id="author">
+        Jon Kabat-Zinn
+      </div>
+    </div>
+  </footer>
+
+  
+  <script type="module" src="js/script.js"></script>
+</body>
+</html>
